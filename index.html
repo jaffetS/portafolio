@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--=============== Remixicons ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== Swiper Css ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!--=============== Css ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/skins/color-1.css">
+
+  <!--=============== Skin Colors ===============-->
+  <link rel="stylesheet" href="assets/css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="assets/css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+
+  <title>Portafolio Web</title>
+</head>
+
+<body>
+  <!--=============== Header ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+
+          <li>
+            <a href="#home" class="nav__link active-link">Hola</a>
+          </li>
+
+          <li>
+            <a href="#services" class="nav__link">Servicios</a>
+          </li>
+
+          <li>
+            <a href="#resume" class="nav__link">Resumen</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="nav__link">Portafolio</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav__link">Contactarme</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-fill"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--=============== Main ===============-->
+  <main class="main">
+    <!--=============== Home ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <img src="assets/img/profile.jpg" alt="" class="home__img">
+
+        <div class="home__data">
+          <h1 class="home__name">Alejandro Sereno Arellano</h1>
+          <p class="home__work">Desarrollador web y desarrollador movile</p>
+          <dl class="home__list">
+            <dt>EDAD:</dt>
+            <dd>22</dd>
+            <dt>TELEFONO:</dt>
+            <dd>(+52) 352-242-66-76</dd>
+            <dt>CORREO:</dt>
+            <dd>jaffetsereno@gmail.com</dd>
+            <dt>DOMICILIO:</dt>
+            <dd>Ciudad del sol 59310 La Piedad, Michoacán</dd>
+          </dl>
+          <div class="home__socials">
+            <a href="https://github.com/jaffetS" target="_blank" class="home__social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jaffet-alejandro-sereno-arellano-458336180/" target="_blank"
+              class="home__social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1AcQx7XQTr/" target="_blank" class="home__social-link">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Hello ===============-->
+    <section class="hello section container">
+      <h2 class="section__title">Hola_</h2>
+
+      <p class="hello__details text-lg">
+        Soy un desarrollador web junior capaz de crear una pagina web desde cero, desde el concepto,
+        la navegación, el diseño y la programación hasta la experiencia del usuario y el SEO.
+        Tengo experiencia en escribir código bien diseñado, comprobable y eficiente utilizando las mejores
+        prácticas actuales en desarrollo web. Aprendo rápido, trabajo duro y trabajo en equipo, y soy competente
+        en una variedad de lenguajes de programación y herramientas web multimedia.
+      </p>
+      <a href="assets/img/Currículum Jaffet.pdf" class="button button--flex text-sm">
+        <i class="ri-download-line"></i> DESCARGAR CV
+      </a>
+    </section>
+
+    <!--=============== Service ===============-->
+    <section class="services section container" id="services">
+      <h2 class="section__title">Servicios_</h2>
+
+      <div class="services__container grid">
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/web-design.png" alt="" class="services__icon">
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">Diseño web</h3>
+          <p class="services__detail">
+            Experiencia en diseño y desarrollador web
+          </p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/laptop.png" alt="" class="services__icon">
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">Desarrollador web</h3>
+          <p class="services__detail">
+            Experiencia en creacion de paginas web
+          </p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/paint-palette.png" alt="" class="services__icon">
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">Diseño creativo</h3>
+          <p class="services__detail">
+            Me enfoco en el diseño de la pagina y app, para una mejor interacción
+          </p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/smartphone-call.png" alt="" class="services__icon">
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">Diseño responsivo</h3>
+          <p class="services__detail">
+            Me encargo de que la pagina web tenga un diseño responsivo para dispositivos moviles
+          </p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/verified.png" alt="" class="services__icon">
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">Identidad de marca</h3>
+          <p class="services__detail">
+            Sé desarrollar la personalidad de una marca definiendo su propósito, valores y estilo visual para que se
+            conecte emocionalmente con su público.
+          </p>
+        </div>
+
+        <div class="services__item">
+          <div class="icon__box">
+            <img src="assets/img/operator.png" alt="" class="services__icon">
+            <div class="services__dot">
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <h3 class="services__title text-lg">Soporte 24/7</h3>
+          <p class="services__detail">
+            Ayudar y dar mantenimiento 24/7, para optimizar la pagina
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Resumen ===============-->
+    <section class="section container" id="resume">
+      <h2 class="section__title">Resumen_</h2>
+
+      <div class="resume__container grid">
+        <div class="resume__data">
+          <h3 class="resume__title text-sm">EDUCACIÓN</h3>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">INSTITUTO TECNOLÓGICO DE LA PIEDAD (UNIVERSIDAD)</h3>
+            <p class="resume__date text-sm">2020-2025</p>
+            <p class="resume__description text-lg">Ingeniería Sistemas Computacionales</p>
+          </div>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">MÁRTIRES DE LA REFORMA (BACHILLERATO)</h3>
+            <p class="resume__date text-sm">2017-2020</p>
+            <p class="resume__description text-lg">Ciencias Fisico - Matemático</p>
+          </div>
+        </div>
+
+        <div class="resume__data">
+          <h3 class="resume__title text-sm">EMPLEOS</h3>
+
+          <!--  <div class="resume__item">
+            <h3 class="resume__subtitle text-sm"></h3>
+            <p class="resume__date text-sm"></p>
+            <p class="resume__description text-lg"></p>
+          </div>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm"></h3>
+            <p class="resume__date text-sm"></p>
+            <p class="resume__description text-lg"></p>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Skills ===============-->
+    <section class="section container">
+      <h2 class="section__title">Habilidades_</h2>
+
+      <div class="skills__container grid">
+        <div class="skills__content">
+          <h3 class="skills__title text-sm">FRONTEND</h3>
+
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">HTML</p>
+                <span class="skills__number text-sm">80%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 80%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">CSS</p>
+                <span class="skills__number text-sm">80%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 80%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">JavaScript</p>
+                <span class="skills__number text-sm">75%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 75%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">React</p>
+                <span class="skills__number text-sm">50%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 50%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__content">
+          <h3 class="skills__title text-sm">BACKEND</h3>
+
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">PHP</p>
+                <span class="skills__number text-sm">10%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 10%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">Node Js</p>
+                <span class="skills__number text-sm">40%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 40%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">Python</p>
+                <span class="skills__number text-sm">40%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 40%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">MySQL</p>
+                <span class="skills__number text-sm">65%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 65%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Projects ===============-->
+    <section class="work section container" id="portfolio">
+      <h2 class="section__title">Trabajos_</h2>
+
+      <div class="project__categories">
+        <button class="category__btn text-xs active-work" data-filter="all">TODOS</button>
+        <button class="category__btn text-xs" data-filter=".app">APLICACIONES MOVILES</button>
+        <button class="category__btn text-xs" data-filter=".web">SITIOS WEB</button>
+      </div>
+
+      <div class="projects__container grid">
+        <div class="project__item grid mix app">
+          <img src="assets/img/project-1.png" alt="" class="project__img">
+
+          <div class="project__data">
+            <h3 class="project__title text-lg">MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE</h3>
+            <p class="project__description">Eu consectetur exercitation id aliqua tempor dolore adipisicing occaecat
+              do.Labore esse reprehenderit Lorem aliqua nulla consectetur qui sint nisi pariatur.</p>
+            <h4 class="project__stack text-xs">USED STACK:</h4>
+            <ul class="tags text-sm">
+              <li>html5</li>
+              <li>css3</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>bower</li>
+              <li>grunt</li>
+            </ul>
+
+            <a href="" class="project__link text-sm"></a>
+          </div>
+        </div>
+
+        <div class="project__item grid mix web">
+          <img src="assets/img/project-2.png" alt="" class="project__img">
+
+          <div class="project__data">
+            <h3 class="project__title text-lg">MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE</h3>
+            <p class="project__description">Eu consectetur exercitation id aliqua tempor dolore adipisicing occaecat
+              do.Labore esse reprehenderit Lorem aliqua nulla consectetur qui sint nisi pariatur.</p>
+            <h4 class="project__stack text-xs">USED STACK:</h4>
+            <ul class="tags text-sm">
+              <li>html5</li>
+              <li>css3</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>bower</li>
+              <li>grunt</li>
+            </ul>
+
+            <a href="" class="project__link text-sm"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Testimonios ===============-->
+    <section class="testimonials section">
+      <div class="testimonial__bg">
+        <div class="testimonial__icon">
+          <i class="ri-double-quotes-r"></i>
+        </div>
+
+        <div class="swiper testimonial__container container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide testimonial__item">
+              <h3 class="author__name text-lg"></h3>
+              <p class="author__project"></p>
+              <div class="ruler"></div>
+              <p class="testimonial__description text-lg"></p>
+            </div>
+
+            <div class="swiper-slide testimonial__item">
+              <h3 class="author__name text-lg"></h3>
+              <p class="author__project"></p>
+              <div class="ruler"></div>
+              <p class="testimonial__description text-lg"></p>
+            </div>
+
+            <div class="swiper-slide testimonial__item">
+              <h3 class="author__name text-lg"></h3>
+              <p class="author__project"></p>
+              <div class="ruler"></div>
+              <p class="testimonial__description text-lg"></p>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <img src="assets/img/arrow-next.svg" alt="">
+          </div>
+          <div class="swiper-button-prev">
+            <img src="assets/img/arrow-prev.svg" alt="">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Contact ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__content container">
+        <h2 class="section__title">Contactarme_</h2>
+
+        <div class="contact__container grid">
+          <div class="contact__info">
+            <dl class="contact__list">
+              <dt>Celular:</dt>
+              <dd>(352) 242-66-76</dd>
+              <dt>Correo:</dt>
+              <dd>jaffetsereno@gmail.com</dd>
+            </dl>
+
+            <ul class="contact__socials">
+              <li>
+                <a href="https://www.facebook.com/jaffet.sereno?mibextid=ZbWKwL"
+                  class="contact__social-link">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jaffet-alejandro-sereno-arellano-458336180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  class="contact__social-link">Linkedin</a>
+              </li>
+              <li>
+                <a href="https://github.com/jaffetS" class="contact__social-link">Github</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/jaffet_alejandro/profilecard/?igsh=eTY5bml5NXVnYnAz"
+                  class="contact__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact__form">
+            <p class="contact__form-title">Escribe un mensaje aquí_</p>
+
+            <form action="" id="contact-form">
+              <div class="contact__input-div">
+                <input type="text" name="name" placeholder="Nombre" class="contact__input" id="contact-name">
+              </div>
+
+              <div class="contact__input-div">
+                <input type="email" name="email" placeholder="Correo" class="contact__input" id="contact-email">
+              </div>
+
+              <div class="contact__input-div">
+                <textarea name="message" placeholder="Escribe el mensaje aquí" class="contact__input textarea" id="message" cols="30"
+                  rows="10"></textarea>
+              </div>
+
+              <p class="contact__message text-sm" id="contact__message"></p>
+
+              <button type="submit" class="button contact__button">
+                ENVIAR
+              </button>
+            </form>
+
+            <p class="footer__copy">
+              &copy; 2024 Jaffet Alejandro. Todos los derechos reservados
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== Style Switcher ===============-->
+  <div class="style__switcher">
+    <div class="style__switcher-toggler">
+      <i class="ri-settings-4-fill"></i>
+    </div>
+
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+    </div>
+  </div>
+
+  <!--=============== Mixitup ===============-->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!--=============== Swiper Js ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--=============== Email Js ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--=============== Js ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
